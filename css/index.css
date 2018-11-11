@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    /* 设置 .main 的内边距 上右下左 */
+    padding-top: 2.5% 1.25% 1.25% 100%;
+    background-color: #fff;
+}
+
+.main > div {
+    width: 30%;
+    padding-bottom: 30%;
+    /* 设置正方形的背景颜色 */
+    background-color: orange;
+    /* 设置正方形四个角的弧度 继承父元素的宽度 */
+    border-radius: 5%;
+    /* 设置 div 向左浮动 */
+    float: left;
+    /* 设置外边距 上右下左 */
+    margin: 1.25%;
+}
