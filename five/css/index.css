@@ -168,14 +168,13 @@ div.money > p:last-child {
     color: red;
 }
 
-div.condition {
-    
+div.bodyerdown > div.condition > p.home {
+    border-right-width: inherit;
 }
 
 div.condition > p:first-child {
     padding-left: 24px;
     margin-right: 14px;
-    border-width: 0px;
 }
 
 /* 设置星形图标 */
