@@ -127,9 +127,15 @@ div.bodyerdown > div > p {
 div.bodyerdown > div > p:first-child {
     width: 76px;
     /* 设置右边框的样式和颜色 */
+    border-right-width: 1px;
     border-right-style: solid;
     border-right-color: #e1e5e7;
-    margin: 0 10px;
+    /* 这样设置会使 自我介绍 的左边框随着行数的增加而变长
+       而且 自我介绍 不会居中显示
+     */
+    /*margin: 0 10px;*/
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 div.bodyerdown > div > p:last-child {
