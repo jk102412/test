@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+div.header {
+    width: 100%;
+    height: 40px;
+    background-color: #5fc0cd;
+    /* 设置相对于浏览器的绝对定位, 拖动滚动条不消失 */
+    position: fixed;
+    top: 0;
+    z-index: 4;
+}
+
+div.header > img {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 10px;
+    margin: auto 0;
+    position: absolute;
+}
+
+div.header > p {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+
+div.bodyer {
+    height: 100%;
+    /* 设置margin让设置了position: fixed;的元素不遮挡内容 */
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+/* 设置背景图片模糊 */
+div.bodyertop {
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/background-photo.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: relative;
+    z-index: 1;
+}
+
+/* 设置模糊背景图片使其对子元素不影响 */
+div.bodyertop:after {
+    content: "";
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: inherit;
+    /* 设置模糊度 */
+    filter: blur(10px) brightness(90%);
+    z-index: 2;
+}
+
+/* 设置头像背景图片 */
+div.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background: #fff;
+    background-image: url(../img/header-photo.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 10px;
+    margin: auto 0;
+    z-index: 3;
+}
+
+/*  人名和城市 */
+div.nameandcity {
+    color: #fff;
+    font-weight: bold;
+    line-height: 2rem;
+    position: absolute;
+    top: 76px;
+    left: 120px;
+    z-index: 4;
+}
+
+p.city {
+    font-size: 0.8rem;
+    text-indent: 2rem;
+}
+
+img.blueicon {
+    position: absolute;
+    top: 60%;
+}
+
+/* bodyerdown */
+div.bodyerdown > div {
+    width: 100%;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: #e1e5e7;
+    padding: 20px 0 20px 0;
+    /* 用display: flex; 设置元素垂直居中 */
+    display: flex;
+    position: relative;
+}
+
+div.bodyerdown > div > p {
+    font-size: 0.8rem;
+    margin: auto 0;
+    display: inline-block;
+}
+
+div.bodyerdown > div > p:first-child {
+    width: 76px;
+    /* 设置右边框的样式和颜色 */
+    border-right-style: solid;
+    border-right-color: #e1e5e7;
+    margin: 0 10px;
+}
+
+div.bodyerdown > div > p:last-child {
+    width: 89%;
+}
+
+div.skills {
+    padding-left: 20px;
+}
+
+/* 设置专业技能 */
+div.skills > p {
+    border-left-width: 3px;
+    border-left-style: solid;
+    border-left-color: #5fc0cd;
+    border-right-width: 0;
+    padding-left: 5px;
+}
+
+/* 设置浅灰色字体 */
+div.experience > p:first-child,
+div.time > p:first-child,
+div.money > p:first-child,
+div.aboutme > p:first-child {
+    color: #999;
+}
+
+/* 设置红色字体 */
+div.money > p:last-child {
+    color: red;
+}
+
+div.condition {
+    
+}
+
+div.condition > p:first-child {
+    padding-left: 24px;
+    margin-right: 14px;
+    border-width: 0px;
+}
+
+/* 设置星形图标 */
+img.star {
+    width: 0.9rem;
+    height: 0.9rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 16px;
+    margin: auto 0;
+}
+
+/* 设置星形图标 */
+img.star2 {
+    width: 0.9rem;
+    height: 0.9rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 78px;
+    margin: auto 0;
+}
+
+/* div.footer */
+/* 设置提交按钮 留言和电话 */
+div.footer {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0;
+}
+
+div.footer > input {
+    text-align: center;
+    width: 40%;
+    padding: 12px 0;
+    margin: auto;
+    border: 2px solid #5fc0cd;
+    border-radius: 5px;
+}
+
+input.iphone {
+    background-color: #5fc0cd;
+}
