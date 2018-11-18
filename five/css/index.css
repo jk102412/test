@@ -38,7 +38,7 @@ div.header > p {
 div.bodyer {
     height: 100%;
     /* 设置margin让设置了position: fixed;的元素不遮挡内容 */
-    margin-top: 40px;
+    margin-top: 38px;
     margin-bottom: 80px;
 }
 
