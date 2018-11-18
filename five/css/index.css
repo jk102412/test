@@ -219,20 +219,21 @@ div.footer {
 }
 
 div.footer > input {
+    font-size: 1.0rem;
     text-align: center;
-    width: 40%;
-    padding: 12px 0;
+    width: 44%;
+    padding: 6px 0;
     margin: auto;
     border: 2px solid #5fc0cd;
     border-radius: 5px;
 }
 
 input.message {
-    background-color: #fff;
     color: #5fc0cd;
+    background-color: #fff;
 }
 
 input.iphone {
-    background-color: #5fc0cd;
     color: #fff;
+    background-color: #5fc0cd;
 }
