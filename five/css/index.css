@@ -63,7 +63,7 @@ div.bodyertop:after {
     top: 0;
     background: inherit;
     /* 设置模糊度 */
-    filter: blur(10px) brightness(90%);
+    filter: blur(2px) brightness(80%);
     z-index: 2;
 }
 
@@ -155,6 +155,12 @@ div.skills > p {
     padding-left: 5px;
 }
 
+/* 去掉右边框 */
+
+div.bodyerdown > div.skills > p {
+    border-right-width: 0;
+}
+
 /* 设置浅灰色字体 */
 div.experience > p:first-child,
 div.time > p:first-child,
@@ -169,7 +175,7 @@ div.money > p:last-child {
 }
 
 div.bodyerdown > div.condition > p.home {
-    border-right-width: inherit;
+    border-right-width: 0;
 }
 
 div.condition > p:first-child {
@@ -221,6 +227,12 @@ div.footer > input {
     border-radius: 5px;
 }
 
+input.message {
+    background-color: #fff;
+    color: #5fc0cd;
+}
+
 input.iphone {
     background-color: #5fc0cd;
+    color: #fff;
 }
