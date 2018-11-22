@@ -67,6 +67,15 @@ p.worker {
     background-color: #fff;
 }
 
+p.worker, p.boos {
+    /* 使用 overflow: hidden; 把超出的内容隐藏 */
+    overflow: hidden;
+    /* 使用 white-space: nowrap; 设置内容不换行 */
+    white-space: nowrap;
+    /* 使用text-overflow: ellipsis; 设置超出的内容为省略号 */
+    text-overflow: ellipsis;
+}
+
 /* 设置body */
 div.body {
     margin-top: 50px;
@@ -105,6 +114,9 @@ div.backgroundIconDown {
 div.bodyTop > div > p {
     margin: auto;
     color: #999999;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 div.food, div.patient {
@@ -115,6 +127,31 @@ div.food, div.patient {
     background-size: 1px 98%;
     background-repeat: no-repeat;
     background-position: top left;
+}
+
+div.dropDown {
+    display: none;
+    position: absolute;
+    top: 40px;
+    background-color: #f9f9f9;
+    max-width: 150%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 2;
+}
+
+div.dropDown > p {
+    font-size: 0.9rem;
+    /* 使用 overflow: hidden; 把超出的内容隐藏 */
+    overflow: hidden;
+    /* 使用 white-space: nowrap; 设置内容不换行 */
+    white-space: nowrap;
+    /* 使用 text-overflow: ellipsis; 设置超出的内容为省略号 */
+    text-overflow: ellipsis;
+}
+
+div.bodyTop > div:hover .dropDown {
+    display: block;
 }
 
 /* bodyList */
@@ -146,8 +183,7 @@ div.city {
 }
 
 div.timeMoney > p {
-    font-size: 1.0rem;
-    display: inline-block;
+    font-size: 0.9rem;
     line-height: 35px;
 }
 
@@ -159,6 +195,15 @@ p.money {
     color: red;
     right: 0;
     margin-right: 50px;
+}
+
+div.time > p, p.time2, div.city > p {
+    /* 设置当屏幕变窄是左边的文字隐藏不换行, 用..代替 */
+    width: 46%;
+    /*background-color: pink;*/
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 div.backgroundIconTime {
@@ -195,6 +240,8 @@ div.backgroundIconCity {
     background-repeat: no-repeat;
     background-position: -20px -116px;
 }
+
+
 
 /* footer */
 div.footer {
