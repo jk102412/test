@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: #29bde0;
+}
+
+/* header Start */
+div.header {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #74e4db;
+    position: relative;
+}
+
+div.headerText > p {
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0;
+}
+
+div.headerIconL {
+    padding: 10px 0;
+
+}
+
+div.headerIconL > img {
+    position: absolute;
+    left: 10px;
+}
+
+div.headerIconR {
+    padding: 10px 0;
+}
+
+div.headerIconR > img {
+    position: absolute;
+    right: 10px;
+}
+
+/* body start */
+div.body {
+    margin-bottom: 78px;
+}
+
+/* bodyTop start */
+div.bodyTop {
+    position: relative;
+}
+
+div.iconYellow {
+    /*background-color: red;*/
+    text-align: center;
+    padding: 28px 0 60px 0;
+}
+
+div.iconRed {
+    text-align: center;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    /*background-color: pink;*/
+}
+
+div.whiteText {
+    color: #fff;
+    font-size: 2.4rem;
+    text-align: center;
+    position: absolute;
+    top: 82px;
+    left: 0;
+}
+
+/* bodyContent start */
+div.textOrange {
+    color: #ffc865;
+    font-size: 1.6rem;
+    padding-bottom: 30px;
+}
+
+div.textTime {
+    color: #fff;
+}
+
+/* bodyBottom start */
+div.bodyBottomBg {
+    background-color: #fff;
+    padding-top: 10px;
+}
+
+div.bodyBottomBorder {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ddd;
+}
+
+div.textTimeR {
+    color: #e0e0e0;
+}
+
+div.textDay {
+    color: #bfbfbf;
+}
+
+/* footer start */
+div.footerTextL, div.footerTextR {
+    background-color: rgba(41,189,224,0.5);
+    /*background-color: pink;*/
+    text-align: center;
+    padding: 15px 10px;
+    position: fixed;
+    bottom: 0;
+}
+
+div.footerTextL {
+    left: 0;
+}
+
+div.footerTextR {
+    right: 0;
+}
+
+div.footerTextL > p, div.footerTextR > p {
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 5px;
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+
+div.footerTextL > p {
+    background-color: #f66f6f;
+}
+
+div.footerTextR > p {
+    background-color: #fbb435;
+}

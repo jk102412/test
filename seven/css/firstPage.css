@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: #f0f0f0;
+}
+
+/* header start */
+div.whiteLine {
+    background-color: #29bde0;
+    padding: 10px 0;
+}
+
+div.whiteLine > div {
+    width: 30px;
+    height: 0;
+    border: 1px solid #29bde0;
+    background-color: white;
+    margin: 6px 0 6px 20px;
+    padding: 1px 0;
+}
+
+/* bodyTop start */
+div.bodyTopText {
+    color: #c4c4c4;
+    font-size: 2rem;
+    border: 1px solid #c9c9c9;
+    margin-top: 20px;
+    text-align: center;
+}
+
+div.bodyTopText > p {
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+
+div.bodyTopText > img {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    margin: auto 0;
+}
+
+/* bodyContent start */
+div.game {
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #fbb435;
+    margin-top: 20px;
+}
+
+div.game > p {
+    color: #fbb435;
+    font-size: 2.2rem;
+    margin-bottom: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* bodyMain start */
+div.difficulty {
+    background-color: white;
+    padding: 15px 25px 0 25px;
+}
+
+div.difficulty > p {
+    color: #fff;
+    font-size: 2rem;
+    background-color: #69d1e9;
+    margin-bottom: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+div.userNumber {
+    background-color: white;
+    padding: 15px 10px 0 10px;
+}
+
+div.userNumber > p {
+    color: #979797;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/* iconOrangeRight start */
+div.iconOrangeRight {
+    position: absolute;
+    top: 152px;
+    right: 5px;
+    z-index: 2;
+}
+
+/* bodyBottom start */
+div.bodyB {
+    background-color: white;
+    /*padding: 10px 0;*/
+    text-align: center;
+}
+
+div.bodyB > div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #f0f0f0;
+}
+
+div.bodyB > div:first-child {
+    background-color: #69d1e9;
+}

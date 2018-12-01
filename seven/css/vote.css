@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: #29bde0;
+    position: relative;
+}
+
+/* header Start */
+img.iconText {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+
+img.iconCloseX {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+}
+
+p.text-center {
+    font-size: 2rem;
+    color: #fff;
+    padding: 22px 0 0;
+}
+
+/* bodyTop start */
+div.bgColor {
+    background-color: #b9e9f5;
+}
+
+p.text-left {
+    font-size: 1.5rem;
+    padding: 15px 0 15px 20px;
+    margin: auto 0;
+}
+
+div.down {
+    width: 0px;
+    height: 0px;
+    border-width: 10px 5px;
+    border-style: solid;
+    border-color: #b9e9f5 transparent transparent transparent;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+div.bgOrange {
+    width: 25px;
+    height: 25px;
+    background-color: #fbb435;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 12px;
+    bottom: 0;
+    margin: auto 0;
+}
+
+img.iconRight {
+    position: absolute;
+    top: 0;
+    right: 3px;
+    bottom: 0;
+    margin: auto;
+}
+
+p.clickNumber {
+    color: #fff;
+    position: absolute;
+    top: 1.5rem;
+    left: 43px;
+}
+
+/* bodyContent start */
+div.bodyContent {
+    margin-bottom: 105px;
+}
+.list {
+    padding: 20px 15px;
+    position: relative;
+}
+
+div.listContent {
+    border: 4px solid #fff;
+    text-align: center;
+}
+
+p.name {
+    background-color: #f5c97b;
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+
+p.number {
+    color: #fff;
+    background-color: #83b09a;
+    margin-bottom: 0;
+}
+
+/* Icon Start */
+div.iconName {
+    position: absolute;
+    bottom: -7px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    /*background-color: blue;*/
+    display: none;
+}
+
+div.list:hover div.iconName {
+    display: block;
+}
+
+/* bodyBottom start */
+div.bottom {
+
+    /*background-color: red;*/
+    background-color: #29bde0;
+    padding: 25px 0px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+div.bottomButton {
+    width: 80%;
+    color: #fff;
+    font-size: 2rem;
+    background-color: orange;
+    padding: 10px 0;
+    display: flex;
+    margin: auto;
+}
+
+div.bottomButton > p {
+    margin: 0 auto;
+}
+
+/* music start */
+div.musicMp3 {
+    text-align: center;
+    padding: 10px 0;
+}

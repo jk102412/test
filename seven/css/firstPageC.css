@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+/* header Start */
+div.header {
+    width: 100%;
+    height: 50px;
+    background-color: #29bde0;
+    position: relative;
+}
+
+div.littleLineBox {
+    width: 26px;
+    height: 18px;
+    /*background-color: pink;*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    margin: auto 0;
+}
+
+div.littleLineBox > div {
+    width: 26px;
+    height: 2px;
+    background-color: #fff;
+}
+
+div.lineCenter {
+    margin: 6px 0;
+}
+
+/* bodyTop Start */
+div.body {
+    width: 88%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+div.bodyTop {
+    height: 80px;
+    border: 1px solid #c9c9c9;
+    background-color: #fff;
+    text-align: center;
+    line-height: 80px;
+    margin: 20px 0;
+}
+
+div.bodyTop > p {
+    font-size: 2rem;
+    color: #a9aaab;
+}
+
+img.iconBack {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    margin: auto 0;
+}
+
+/* bodyContent Start */
+div.bodyContent {
+    width: 100%;
+    border: 1px solid #c9c9c9;
+    background-color: #fff;
+    text-align: center;
+    position: absolute;
+    margin-bottom: 30px;
+}
+
+div.bodyContentTop > p {
+    font-size: 2rem;
+    color: #fbb435;
+    padding: 10px 0;
+    /*background-color: pink;*/
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #fdd793;
+}
+
+div.difficulty {
+    width: 80%;
+    height: 80px;
+    background-color: #69d1e9;
+    text-align: center;
+    line-height: 80px;
+    margin: 20px auto;
+    position: relative;
+}
+
+div.difficulty > p {
+    font-size: 2rem;
+    color: #fff;
+}
+
+img.iconOrange {
+    position: absolute;
+    top: 234px;
+    right: 6px;
+}
+
+p.userNumber {
+    font-size:1.5rem;
+    color: #a0a0a0;
+}
+
+div.dot {
+    width: 8rem;
+    height: 2rem;
+    /*background-color: pink;*/
+    margin: 15px auto;
+}
+
+div.dot > span {
+    display: inline-block;
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #f0f0f0;
+    border-radius: 1rem;
+}
+
+div.dot > span:first-child {
+    background-color: #69d1e9;
+}
