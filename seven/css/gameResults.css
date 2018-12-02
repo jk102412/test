@@ -126,7 +126,7 @@ div.footerTextR {
     right: 0;
 }
 
-div.footerTextL > p, div.footerTextR > p {
+div.footerTextL >a > p, div.footerTextR > p {
     color: #fff;
     font-size: 2rem;
     border-radius: 5px;
@@ -134,10 +134,17 @@ div.footerTextL > p, div.footerTextR > p {
     padding: 10px 0;
 }
 
-div.footerTextL > p {
+div.footerTextL > a > p {
     background-color: #f66f6f;
 }
 
 div.footerTextR > p {
     background-color: #fbb435;
+}
+
+div.footerTextL > a {
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
 }

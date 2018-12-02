@@ -106,12 +106,18 @@ p.number {
 /* Icon Start */
 div.iconName {
     position: absolute;
-    bottom: -7px;
+    bottom: -10px;
     right: 0;
     left: 0;
-    text-align: center;
-    /*background-color: blue;*/
+    /*background-color: gray;*/
     display: none;
+    text-align: justify;
+    text-align-last: justify;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+div.iconName > img {
 }
 
 div.list:hover div.iconName {
@@ -120,8 +126,7 @@ div.list:hover div.iconName {
 
 /* bodyBottom start */
 div.bottom {
-
-    /*background-color: red;*/
+    background-color: red;
     background-color: #29bde0;
     padding: 25px 0px;
     position: fixed;
@@ -129,24 +134,26 @@ div.bottom {
     bottom: 0;
     left: 0;
     margin: 0 auto;
+    /*z-index: 2;*/
 }
 
-div.bottomButton {
+div.bottomButton > a > p {
     width: 80%;
     color: #fff;
     font-size: 2rem;
     background-color: orange;
     padding: 10px 0;
-    display: flex;
     margin: auto;
 }
 
-div.bottomButton > p {
-    margin: 0 auto;
+div.bottomButton > a {
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
 }
 
 /* music start */
-div.musicMp3 {
-    text-align: center;
-    padding: 10px 0;
+iframe {
+    display: none;
 }
