@@ -24,9 +24,10 @@ div.whiteLine > div {
 
 /* bodyTop start */
 div.bodyTopText {
-    color: #c4c4c4;
+    color: #9a9a9a;
     font-size: 2rem;
     border: 1px solid #c9c9c9;
+    background-color: #fff;
     margin-top: 20px;
     text-align: center;
 }
@@ -91,7 +92,7 @@ div.userNumber > p {
 div.iconOrangeRight {
     position: absolute;
     top: 152px;
-    right: 5px;
+    right: 1.2%;
     z-index: 2;
 }
 
